@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-image-top>img{
+    position: relative;
+    width:100%;
+    height:40rem;
+}
+
+.texts-top{
+    position: absolute;
+    top:10rem !important;
+    
+}
+
+.phone-1>img{
+    height: 33rem;
+}
+
+.col-md-2>img{
+ width:4rem;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+.phone-2>img{
+    height: 33rem;
+}
+.download-btns>img{
+    width:7rem;
+    height: 4rem;
+    align-items: center;
+    margin: 2rem;
+}
+
+.bottom-image>img{
+    width:30rem !important;
+}
+
+
+.footer{
+    height: 12rem;
+    width: 100%;
+    background-color: black;
+}
+
+.footer>img{
+    margin-top: 10px;
+    width:5rem;
+    height: 3rem;
+}
+
+.below-links>span{
+    padding: 1rem;
+    color:#fff;
+    font-size: large;
+    font-weight: 400;
+}
+.icons>i{
+     padding: 1rem;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+
+
+@media(max-width:780px){
+    .bg-image-top>img {
+        position: relative;
+        width: 100%;
+        height: 50rem;
+    }
+
+    .texts-top {
+        position: absolute;
+        top: 7rem !important;
+
+    }
+
+    .phone-1>img {
+        height: 27rem;
+
+    }
+
+.download>h1{
+    margin-left: 1rem;
+}
+.download>p{
+    margin-left: 1rem;
+}
+
+.awesome>h3{
+    margin-left: 1rem;
+}
+.awesome>p{
+    margin-left: 1rem;
+}
+.awesome>img{
+    margin-left: 1rem;
+}
+
+.footer {
+    height: 17rem;
+}
+
+}
